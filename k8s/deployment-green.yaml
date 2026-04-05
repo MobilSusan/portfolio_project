@@ -17,5 +17,6 @@ spec:
       containers:
         - name: tdl-api
           image: tdl-api:v1.1.1-broken
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
