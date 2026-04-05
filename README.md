@@ -30,11 +30,10 @@ Green (v1.1.1-broken) = faulty version
 Health checks prevent traffic to unhealthy pods
 Rollback switches traffic back to Blue
 
-## Project Structure
 portfolio_project/
 │
-├── app/                       # Blue version
-├── app_v1.1.1_broken/         # Green version
+├── app/                       # Blue version (v1.1.0)
+├── app_v1.1.1_broken/         # Green version (v1.1.1-broken)
 │
 ├── k8s/
 │   ├── deployment-blue.yaml
@@ -45,7 +44,6 @@ portfolio_project/
 │   ├── validate.ps1
 │   ├── dashboard.ps1
 │
-├── Dockerfile
 └── README.md
 
 
