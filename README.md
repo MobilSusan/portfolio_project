@@ -30,6 +30,7 @@ Green (v1.1.1-broken) = faulty version
 Health checks prevent traffic to unhealthy pods
 Rollback switches traffic back to Blue
 
+## Project Structure
 portfolio_project/
 │
 ├── app/                       # Blue version (v1.1.0)
